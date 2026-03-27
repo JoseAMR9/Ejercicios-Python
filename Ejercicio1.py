@@ -1,0 +1,6 @@
+a = float(input("a -> "))
+b = float(input("b -> "))
+
+result = ((3 + 5 * 8)<3 and ((-6/3 * 4) + 2 < 2)) or (a>b)
+
+print(result)
