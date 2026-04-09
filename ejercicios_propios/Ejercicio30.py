@@ -8,7 +8,7 @@ Clear the user's permissions using .clear() and display the result.
 permisos_admin = {"leer", "escribir", "eliminar", "configurar"}
 permisos_usuario = {"leer", "escribir"}
 
-if permisos_usuario.issubset(permisos_admin):
+if permisos_usuario.issubset(permisos_admin): #a.issubset(b): devuelve true si -> a contiene algo de b
     print("Is subset")
 else:
     print("Is not subset")
